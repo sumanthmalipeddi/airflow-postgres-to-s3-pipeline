@@ -892,7 +892,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Sumanth Malipeddi**  
 - 💼 LinkedIn: [https://www.linkedin.com/in/sumanth-malipeddi/](https://www.linkedin.com/in/sumanth-malipeddi/)
 - 📧 Email: Open to discussions on data engineering, Apache Airflow, and ETL design
-- 🐙 GitHub: [Your GitHub Profile]
+- 🐙 GitHub: [[sumanthmalipeddi]](https://github.com/sumanthmalipeddi)
 
 ---
 
