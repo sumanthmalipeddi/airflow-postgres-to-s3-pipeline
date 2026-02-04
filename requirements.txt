@@ -1,0 +1,6 @@
+apache-airflow==3.1.5
+apache-airflow-providers-postgres
+apache-airflow-providers-amazon
+pandas
+requests
+psycopg2-binary

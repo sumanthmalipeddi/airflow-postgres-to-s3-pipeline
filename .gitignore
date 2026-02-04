@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+.airflow/
+logs/
+plugins/__pycache__/
+dags/__pycache__/
+.DS_Store
+.vscode/
+.idea/
