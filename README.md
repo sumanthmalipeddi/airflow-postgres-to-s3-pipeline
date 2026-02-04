@@ -20,7 +20,9 @@ The goal of this project is to demonstrate **real-world data engineering practic
 
 ## 🏗️ Architecture Overview
 
-![Airflow Failure](screenshots/full_architecture.png)
+
+### Pipeline Architecture
+![Project Architecture](screenshots/full_architecture.png)
 
 Airbnb CSV Files
 ↓
@@ -57,6 +59,9 @@ This project documents how each of these problems was identified and resolved in
 ### 1. CSV NULL Handling
 Postgres expects `\N` for NULL values during `COPY`.  
 Empty strings and improper quoting caused numeric and date parsing errors.
+
+![Schema Errors](screenshots/Schema Errors.png)
+
 
 ### 2. Postgres `COPY` vs `INSERT`
 Unlike `INSERT`, `COPY` does not apply column defaults unless explicitly handled.  
@@ -110,15 +115,10 @@ This keeps the DAG clean and extensible.
 ---
 
 ## 📸 Screenshots
-
-Screenshots included in the repository show:
-
-- Airflow task failures caused by CSV and COPY issues
-- Postgres error logs
-- Successful DAG execution
-- Data successfully exported to S3
-
-Refer to the `/screenshots` directory.
+![Partial Success](screenshots/Partial Success.png)
+![First Success](screenshots/First Success.png)
+![Complete Success](screenshots/Complete Success.png)
+![AWS Loading](screenshots/AWS S3.png)
 
 ---
 
@@ -143,8 +143,14 @@ Refer to the `/screenshots` directory.
 
 ---
 
-## ✍️ Author
+---
+
+## 🔗 Connect with Me
+
+**Sumanth Malipeddi**  
+- 💼 LinkedIn: [https://www.linkedin.com/in/sumanth-malipeddi/](https://www.linkedin.com/in/sumanth-malipeddi/)
+- 📧 Open to discussions on data engineering, Apache Airflow, and ETL design
 
 Built as part of **self-directed learning and hands-on experimentation** with Apache Airflow and data engineering.
 
-The focus of this project is learning through real-world failure scenarios and production-style fixes.# airflow-postgres-to-s3-pipeline
+The focus of this project is learning through real-world failure scenarios and production-style fixes.
