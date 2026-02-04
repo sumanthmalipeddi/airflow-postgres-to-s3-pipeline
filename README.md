@@ -20,6 +20,8 @@ The goal of this project is to demonstrate **real-world data engineering practic
 
 ## 🏗️ Architecture Overview
 
+![Airflow Failure](screenshots/full_architecture.png)
+
 Airbnb CSV Files
 ↓
 Apache Airflow DAG
