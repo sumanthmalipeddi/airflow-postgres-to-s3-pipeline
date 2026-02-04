@@ -772,16 +772,16 @@ numpy
 ![Schema Errors](screenshots/Schema Errors.png)
 
 ### Partial Success (During Debugging)
-![Partial Success](screenshots/Partial Success.png)
+![Partial Success](screenshots/Partial%20Success.png)
 
 ### First Success
-![First Success](screenshots/First Success.png)
+![First Success](screenshots/First%20Success.png)
 
 ### Complete Success
-![Complete Success](screenshots/Complete Success.png)
+![Complete Success](screenshots/Complete%20Success.png)
 
 ### AWS S3 Output
-![AWS Loading](screenshots/AWS S3.png)
+![AWS Loading](screenshots/AWS%20S3.png)
 
 ---
 
